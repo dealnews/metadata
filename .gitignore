@@ -1,0 +1,22 @@
+# Temporary files
+.DS_Store
+*~
+*.sw[aop]
+.php-cs-fixer.cache
+
+# Deployment dependencies
+vendor
+composer.lock
+phpunit.xml
+
+# IDE project settings
+.project
+.settings
+.idea
+*.sublime-workspace
+*.sublime-project
+
+# test artifacts
+tests/fixtures/test_copy.db
+.phpunit.result.cache
+.phpunit.cache
